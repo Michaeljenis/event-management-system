@@ -19,7 +19,20 @@ This is a full-stack Event Management System for managing student events, built 
 
 ### Backend
 * Java / Spring Boot
-* Spring Data JPA
+* Spring Data MongoDB
+* MongoDB (Database)
+
+---
+
+## ⚙️ Database Setup
+
+Before running the backend, make sure you have MongoDB running locally or have a MongoDB Atlas connection string.
+
+1. Open `backend/src/main/resources/application.properties` (or `application.yml`).
+2. Add your MongoDB configuration:
+   ```properties
+   spring.data.mongodb.uri=mongodb://localhost:27017/event_db
+   ```
 
 ---
 
@@ -40,4 +53,5 @@ Open a second, separate terminal window and run:
 cd backend
 
 ./mvnw spring-boot:run
+
 ```
