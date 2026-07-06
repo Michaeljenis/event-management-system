@@ -24,15 +24,16 @@ This is a full-stack Event Management System for managing student events, built 
 
 ---
 
-## ⚙️ Database Setup
+## ⚙️ Database & Environment Setup
 
-Before running the backend, make sure you have MongoDB running locally or have a MongoDB Atlas connection string.
+The backend is configured to run on port **8081** and connects to a local MongoDB instance. 
 
-1. Open `backend/src/main/resources/application.properties` (or `application.yml`).
-2. Add your MongoDB configuration:
-   ```properties
-   spring.data.mongodb.uri=mongodb://localhost:27017/event_db
-   ```
+Ensure your `backend/src/main/resources/application.properties` matches the following configuration:
+```properties
+spring.application.name=StuEvent
+server.port=8081
+spring.mongodb.uri=mongodb://localhost:27017/stu_events
+```
 
 ---
 
