@@ -20,7 +20,6 @@ This is a full-stack Event Management System for managing student events, built 
 ### Backend
 * Java / Spring Boot
 * Spring Data JPA
-* Spring Security (optional, if you plan to use it)
 
 ---
 
