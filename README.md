@@ -25,8 +25,22 @@ This is a full-stack Event Management System for managing student events, built 
 
 ## 🚀 How to Run Locally
 
+To run the full application, you will need to start both the frontend and the backend in separate terminal windows.
+
 ### 1. Frontend Setup
 ```bash
 cd frontend
 npm install
 npm run dev
+```
+
+### 2. Backend Setup (Spring Boot)
+Open a second, separate terminal window and run:
+```bash
+cd backend
+# If using Maven:
+./mvnw spring-boot:run
+
+# Or if using Gradle:
+./gradlew bootRun
+```
