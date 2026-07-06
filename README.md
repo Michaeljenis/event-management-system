@@ -38,9 +38,6 @@ npm run dev
 Open a second, separate terminal window and run:
 ```bash
 cd backend
-# If using Maven:
-./mvnw spring-boot:run
 
-# Or if using Gradle:
-./gradlew bootRun
+./mvnw spring-boot:run
 ```
